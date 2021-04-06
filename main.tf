@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = var.google_creds
+  credentials = file("/home/gpietro/neat-verbena-309818-5f48f96c31c3.json")
   project     = "neat-verbena-309818"
   region      = "us-east1"
 }
