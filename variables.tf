@@ -1,3 +1,9 @@
+variable "google_pem" {
+  type        = string
+  description = "Google Credentials"
+  sensitive   = true
+}
+
 variable "google_creds" {
   type        = string
   description = "Google Credentials"
