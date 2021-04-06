@@ -3,3 +3,9 @@ variable "google_creds" {
   description = "Google Credentials"
   sensitive   = true
 }
+
+variable "google_test" {
+  type        = string
+  description = "Google Test Var"
+  default     ="test"
+}
