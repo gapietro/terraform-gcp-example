@@ -1,6 +1,6 @@
 provider "google" {
   #credentials = file("/home/gpietro/neat-verbena-309818-5f48f96c31c3.json")
-  access_token = var.google_creds
+  credentials = base64decode(var.google_creds)
   project     = "neat-verbena-309818"
   region      = "us-east1"
 }
